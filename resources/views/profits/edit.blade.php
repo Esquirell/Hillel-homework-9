@@ -5,4 +5,5 @@
     <input type="text" name="source" value="{{$profit->source}}">
     <textarea name="comment">{{$profit->comment}}</textarea>
     <button type="submit">Edit profit</button>
+    <p><a href="{{route('profits.index')}}">Back</a></p>
 </form>

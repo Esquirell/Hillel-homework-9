@@ -10,6 +10,6 @@
             </form>
         </li>
     @endforeach
-    <a href="{{route('costs.create')}}">Add new cost</a>
-
+    <p><a href="{{route('costs.create')}}">Add new cost</a></p>
+    <p><a href="{{route('home')}}">Home</a></p>
 </ul>
